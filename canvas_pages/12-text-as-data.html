@@ -1,0 +1,21 @@
+<div style="background-color: #800000; color: #ffffff; border-radius: 12px 12px 0 0; padding: 20px 24px;">
+    <p style="margin: 0; font-size: 0.9em;">Module 12</p>
+    <h2 style="margin: 4px 0 0 0; color: #ffffff;"><span aria-hidden="true">&#128172;</span> Text as Data</h2>
+</div>
+<div style="border-width: medium 2px 2px; border-style: none solid solid; border-color: currentcolor #800000 #800000; border-radius: 0px 0px 12px 12px; padding: 24px;">
+    <p style="font-size: 1.05em;">Every dataset so far has been a table of numbers and categories. Most of the data in the world is not. In this module we take <strong>20,491 hotel reviews</strong>, written by people in ordinary English, and turn them into something the models from Module 11 can read.</p>
+    <p style="text-align: center;"><img style="max-width: 420px; width: 100%; border-radius: 8px;" src="https://raw.githubusercontent.com/jppeirce/DSC210-Foundations-of-Data-Science/main/Notes/12-text_as_data/fig_review_words.png" alt="Bar chart of words with the largest positive and negative coefficients in a hotel review classifier." /></p>
+    <p style="text-align: center; color: #495057; font-size: 0.9em; margin-top: -8px;">What the model actually learned from 20,491 reviews. Nobody told it that &ldquo;dirty&rdquo; was bad.</p>
+    <div style="background-color: #f7ecec; border-radius: 8px; padding: 14px 16px; margin: 16px 0px; border: 2px solid #800000;"><span style="color: #800000;"><span aria-hidden="true">&#128161;</span> Key concepts:</span>
+        <ul style="margin: 8px 0 0 0;">
+            <li>Explain why <strong>unstructured</strong> text has to be converted to numbers before any model can use it</li>
+            <li>Clean and <strong>tokenize</strong> raw text, and justify removing <strong>stop words</strong></li>
+            <li>Compute <strong>TF-IDF</strong> by hand on a small corpus, and explain what the IDF term is for</li>
+            <li>Build a text classifier using the <strong>logistic regression</strong> from Module 11</li>
+            <li>Read a text model's <strong>coefficients</strong> to see which words drive its predictions</li>
+            <li>State what the bag-of-words representation throws away, and what <strong>n-grams</strong> partly recover</li>
+        </ul>
+    </div>
+    <p style="text-align: center; margin: 24px 0;"><a style="background-color: #800000; color: #ffffff; padding: 12px 28px; border-radius: 8px; text-decoration: none; font-size: 1.1em;" href="https://colab.research.google.com/github/jppeirce/DSC210-Foundations-of-Data-Science/blob/main/Notes/12-text_as_data/12-text_as_data.ipynb" target="_blank" rel="noopener"><span aria-hidden="true">&#128640;</span> Open today's notebook in Colab<span style="position: absolute; left: -10000px; width: 1px; height: 1px; overflow: hidden;"> (opens in a new tab)</span></a></p>
+    <div style="background-color: #fff9db; border-left: 6px solid #800000; padding: 12px 16px; border-radius: 6px;"><span aria-hidden="true">&#128190;</span> Remember: File &gt; Save a copy in Drive as soon as it opens.</div>
+</div>
